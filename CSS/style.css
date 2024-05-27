@@ -16,6 +16,23 @@ a {
     color: white;
 }
 
+h2 {
+    font-weight: 600;
+    padding: 0.5em 0 0.2em;
+}
+
+.fa-star {
+    width: 100%;
+    font-size: 24px;
+}
+
+.hr-black {
+    border: 2px solid black;
+}
+
+.hr-white {
+    border: 2px solid white;
+}
 
 /* regole generali colori */
 nav {
@@ -24,9 +41,14 @@ nav {
     padding: 1em 0;
 }
 
+section {
+    padding: 1em 0;
+}
+
 .color-green {
     background-color: #1abc9c;
     color: white;
+    padding: 1em 0;
 }
 
 #generic-info {
@@ -61,20 +83,11 @@ nav {
     display: none;
 }
 
-/* header */
 
+/* header */
 #avatar {
     margin: 0.8em 0;
-    width: 200px;
-}
-
-.fa-star {
-    width: 100%;
-    font-size: 24px;
-}
-
-.hr-white {
-    border: 2px solid white;
+    width: 12em;
 }
 
 #job-duties {
@@ -82,19 +95,39 @@ nav {
     margin: 1em 0;
 }
 
+
 /* body */
 
 /* portfolio */
-.hr-black {
-    border: 2px solid black;
+.img-portfolio {
+    width: 100%;
+    display: block;
 }
 
-h2 {
-    font-weight: 600;
-    margin: 1em 0 0;
+.ms-card {
+    margin: 0.5em;
+    position: relative ;
 }
 
+.ms-hover {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #1abc9c63;
+    top: 0;
+    display: none;
+    transition: all 8ms ease-in-out;
+}
+.ms-card:hover .ms-hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.fa-plus {
+    color: white;
+    font-size: 50px;
+}
 
 
 /* responsive tablet */
@@ -109,20 +142,7 @@ h2 {
         gap: 0.8em;
         align-items: center;
     }
-}
 
-/* responsive tablet */
-@media screen and (min-width: 1140px) {
-    .fa-bars {
-        display: none;
-    }
-
-    .nav-tablet-desktop {
-        display: flex;
-        justify-content: space-between;
-        gap: 0.5em;
-        align-items: center;
-    }
 }
 
 
