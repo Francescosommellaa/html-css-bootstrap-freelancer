@@ -16,6 +16,10 @@ a {
     color: white;
 }
 
+.green-a {
+    color: #1abc9c;
+}
+
 h2 {
     font-weight: 600;
     padding: 0.5em 0 0.2em;
@@ -175,6 +179,16 @@ input {
     padding-right: 0.4em;
 }
 
+/* footer */
+h6 {
+    margin: 2em 0 0.4em;
+}
+
+.fa-brands {
+    padding: 0.8em;
+    border: 1px solid white;
+    border-radius: 50%;
+}
 
 /* responsive tablet */
 @media screen and (min-width: 780px) {
