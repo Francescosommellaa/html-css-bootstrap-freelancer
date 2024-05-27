@@ -5,12 +5,6 @@
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* db */
-section {
-    height: 50px;
-    width: 100%;
-}
-
 
  /* regole generali */
 li {
@@ -32,6 +26,7 @@ nav {
 
 .color-green {
     background-color: #1abc9c;
+    color: white;
 }
 
 #generic-info {
@@ -66,6 +61,41 @@ nav {
     display: none;
 }
 
+/* header */
+
+#avatar {
+    margin: 0.8em 0;
+    width: 200px;
+}
+
+.fa-star {
+    width: 100%;
+    font-size: 24px;
+}
+
+.hr-white {
+    border: 2px solid white;
+}
+
+#job-duties {
+    font-size: 14px;
+    margin: 1em 0;
+}
+
+/* body */
+
+/* portfolio */
+.hr-black {
+    border: 2px solid black;
+}
+
+h2 {
+    font-weight: 600;
+    margin: 1em 0 0;
+}
+
+
+
 
 /* responsive tablet */
 @media screen and (min-width: 780px) {
@@ -76,7 +106,7 @@ nav {
     .nav-tablet-desktop {
         display: flex;
         justify-content: space-between;
-        gap: 0.5em;
+        gap: 0.8em;
         align-items: center;
     }
 }
@@ -94,3 +124,5 @@ nav {
         align-items: center;
     }
 }
+
+
