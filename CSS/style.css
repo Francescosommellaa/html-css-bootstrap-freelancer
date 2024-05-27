@@ -7,6 +7,10 @@
 
 
  /* regole generali */
+ul {
+    margin: 0;
+}
+
 li {
     list-style: none;
 }
@@ -85,13 +89,14 @@ section {
 #copyright {
     background-color: #2c3e50;
     color: white;
+    padding: 2em 0;
 }
 
 
 /* regole nav */
 #ms-logo {
     font-weight: 800;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .fa-bars {
