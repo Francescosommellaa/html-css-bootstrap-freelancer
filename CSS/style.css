@@ -6,9 +6,20 @@
 }
 
 /* db */
-section, header {
+section {
     height: 50px;
     width: 100%;
+}
+
+
+ /* regole generali */
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 
@@ -33,6 +44,7 @@ nav {
     color: white;
 }
 
+
 /* regole nav */
 #ms-logo {
     font-weight: 800;
@@ -48,4 +60,37 @@ nav {
 .fa-bars:active {
     color: white;
     border: 1px solid white;
+}
+
+.nav-tablet-desktop {
+    display: none;
+}
+
+
+/* responsive tablet */
+@media screen and (min-width: 780px) {
+    .fa-bars {
+        display: none;
+    }
+
+    .nav-tablet-desktop {
+        display: flex;
+        justify-content: space-between;
+        gap: 0.5em;
+        align-items: center;
+    }
+}
+
+/* responsive tablet */
+@media screen and (min-width: 1140px) {
+    .fa-bars {
+        display: none;
+    }
+
+    .nav-tablet-desktop {
+        display: flex;
+        justify-content: space-between;
+        gap: 0.5em;
+        align-items: center;
+    }
 }
