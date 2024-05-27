@@ -34,6 +34,28 @@ h2 {
     border: 2px solid white;
 }
 
+.ms-btn-secondary {
+    border: 1px solid white;
+    color: white;
+}
+.ms-btn-secondary:hover {
+    background-color: white;
+    color: #1abc9c;
+    
+}
+
+.ms-btn-primary {
+    background-color: #1abc9c;
+    color: white;
+}
+.ms-btn-primary:hover {
+    background-color: #097560;
+    color: white;
+    
+}
+
+
+
 /* regole generali colori */
 nav {
     background-color: #2c3e50;
@@ -127,6 +149,30 @@ section {
 .fa-plus {
     color: white;
     font-size: 50px;
+}
+
+input {
+    width: 100%;
+    color: black;
+    background-color: #fff;
+    border: 0;
+    border-bottom: 1px solid black;
+    margin: 0.6em 0;
+}
+
+.ms-form-control {
+    width: 100%;
+    color: black;
+    background-color: #fff;
+    border: 0;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+    margin: 0.6em 0;
+}
+
+/* about */
+.ms-btn-secondary i {
+    padding-right: 0.4em;
 }
 
 
