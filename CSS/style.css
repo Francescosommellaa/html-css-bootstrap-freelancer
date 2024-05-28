@@ -64,12 +64,15 @@ h2 {
 
 
 
-/* regole generali colori */
+/* regole generali */
 nav {
     background-color: #2c3e50;
     color: white;
     padding: 1em 0;
-    position: sticky;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
 }
 
 section {
@@ -79,7 +82,7 @@ section {
 .color-green {
     background-color: #1abc9c;
     color: white;
-    padding: 1em 0;
+    padding: 4em 0;
 }
 
 #generic-info {
