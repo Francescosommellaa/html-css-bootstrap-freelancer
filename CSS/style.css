@@ -137,10 +137,11 @@ section {
 .img-portfolio {
     width: 100%;
     display: block;
+    border-radius: 20px;
 }
 
 .ms-card {
-    margin: 0.5em;
+    margin: 0.8em;
     position: relative ;
 }
 
@@ -152,6 +153,7 @@ section {
     top: 0;
     display: none;
     transition: all 8ms ease-in-out;
+    border-radius: 20px;
 }
 .ms-card:hover .ms-hover {
     display: flex;
